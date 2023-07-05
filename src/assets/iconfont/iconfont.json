@@ -1,0 +1,86 @@
+{
+  "id": "3718520",
+  "name": "Bookeep",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "记账APP",
+  "glyphs": [
+    {
+      "icon_id": "5876306",
+      "name": "消费积分明细",
+      "font_class": "nav-details",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "11372661",
+      "name": "发现",
+      "font_class": "nav-finds",
+      "unicode": "e8af",
+      "unicode_decimal": 59567
+    },
+    {
+      "icon_id": "15726823",
+      "name": "箭头 上",
+      "font_class": "arrow-right",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "32069790",
+      "name": "箭头 上-copy",
+      "font_class": "arrow-left",
+      "unicode": "eca3",
+      "unicode_decimal": 60579
+    },
+    {
+      "icon_id": "32436330",
+      "name": "箭头 上-copy",
+      "font_class": "arrow-top",
+      "unicode": "eca4",
+      "unicode_decimal": 60580
+    },
+    {
+      "icon_id": "32436332",
+      "name": "箭头 上-copy-copy",
+      "font_class": "arrow-bottom",
+      "unicode": "eca5",
+      "unicode_decimal": 60581
+    },
+    {
+      "icon_id": "2640465",
+      "name": "人民币",
+      "font_class": "rmb",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "11372735",
+      "name": "增加",
+      "font_class": "add",
+      "unicode": "e8c0",
+      "unicode_decimal": 59584
+    },
+    {
+      "icon_id": "2675007",
+      "name": "我的",
+      "font_class": "nav-myself",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "2675010",
+      "name": "分类",
+      "font_class": "fenlei",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "4354243",
+      "name": "图表-饼图",
+      "font_class": "nav-charts",
+      "unicode": "eb95",
+      "unicode_decimal": 60309
+    }
+  ]
+}
