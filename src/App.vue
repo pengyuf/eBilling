@@ -9,7 +9,4 @@
 
 
 <style scoped lang="scss">
-.test{
-    color:$--eb-primary-color;
-}
 </style>

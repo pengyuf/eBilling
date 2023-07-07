@@ -1,1 +1,22 @@
-$--eb-primary-color:#65c395;
+$--eb-color-primary: #65c395;
+$--eb-color-block: #000000;
+$--eb-color-white: #ffffff;
+$--eb-color-grey: #999999;
+
+
+$--eb-color-primary-2: rgba($color: $--eb-color-primary, $alpha: .2);
+$--eb-color-primary-4: rgba($color: $--eb-color-primary, $alpha: .4);
+$--eb-color-primary-6: rgba($color: $--eb-color-primary, $alpha: .6);
+$--eb-color-primary-8: rgba($color: $--eb-color-primary, $alpha: .8);
+
+
+$--eb-color-block-2: rgba($color: $--eb-color-block, $alpha: .2);
+$--eb-color-block-4: rgba($color: $--eb-color-block, $alpha: .4);
+$--eb-color-block-6: rgba($color: $--eb-color-block, $alpha: .6);
+$--eb-color-block-8: rgba($color: $--eb-color-block, $alpha: .8);
+
+
+$--eb-color-grey-2: rgba($color: $--eb-color-grey, $alpha: .2);
+$--eb-color-grey-4: rgba($color: $--eb-color-grey, $alpha: .4);
+$--eb-color-grey-6: rgba($color: $--eb-color-grey, $alpha: .6);
+$--eb-color-grey-8: rgba($color: $--eb-color-grey, $alpha: .8);
