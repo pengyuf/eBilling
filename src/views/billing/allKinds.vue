@@ -11,6 +11,13 @@
                     <div class="kind-col">类别</div>
                     <div class="use-col">常用</div>
                 </div>
+                <div class="content-item" v-for="(item, index) in contentList" :key="index">
+                    <div class="title">
+                        <div :class="['iconfont', item.icon]"></div>
+                        <div>{{ item.label }}</div>
+                    </div>
+                    <div class="iconfont icon-xingxing used"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -31,6 +38,18 @@ const sideList = [
     { label: '投资', value: 'side8' },
     { label: '人亲', value: 'side9' },
     { label: '生意', value: 'side10' },
+]
+
+const contentList = [
+    { label: '测试', value: 'tail', icon: 'icon-tielu' },
+    { label: '测试', value: 'tail', icon: 'icon-tielu' },
+    { label: '测试', value: 'tail', icon: 'icon-tielu' },
+    { label: '测试', value: 'tail', icon: 'icon-tielu' },
+    { label: '测试', value: 'tail', icon: 'icon-tielu' },
+    { label: '测试', value: 'tail', icon: 'icon-tielu' },
+    { label: '测试', value: 'tail', icon: 'icon-tielu' },
+    { label: '测试', value: 'tail', icon: 'icon-tielu' },
+    { label: '测试', value: 'tail', icon: 'icon-tielu' },
 ]
 
 const router = useRouter()
@@ -66,7 +85,7 @@ $side-height: 50px;
             height: $side-height;
             line-height: $side-height;
             text-align: center;
-            background: $--eb-color-block-2;
+            background: $--eb-color-grey-2;
 
             &.active {
                 color: $--eb-color-primary;
@@ -89,6 +108,24 @@ $side-height: 50px;
             }
 
             .use-col {
+                flex: 1;
+                text-align: center;
+            }
+        }
+
+        .content-item{
+            display: flex;
+            align-items: center;
+            justify-content:space-between;
+            height: $side-height;
+            line-height: $side-height;
+            .title{
+                display: flex;
+                align-items: center;
+                width: 60%;
+                justify-content: center;
+            }
+            .used{
                 flex: 1;
                 text-align: center;
             }

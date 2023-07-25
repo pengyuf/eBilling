@@ -6,6 +6,13 @@
   "description": "记账APP",
   "glyphs": [
     {
+      "icon_id": "10715456",
+      "name": "星星",
+      "font_class": "xingxing",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
       "icon_id": "11972791",
       "name": "删除",
       "font_class": "keyboard-del",
